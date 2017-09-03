@@ -13,7 +13,6 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
     return $response;
 });
 
-//Survey Routes
 require '../src/routes/survey.php';
 
 $app->run();
